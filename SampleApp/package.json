@@ -1,0 +1,19 @@
+{
+  "angular": "./Scripts/angular-index.js",
+  "name": "SampleApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "browser": {
+    "angular": "./Scripts/angular-index.js"
+  },
+  "author": "Anup",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6"
+  }
+}

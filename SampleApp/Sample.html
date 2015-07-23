@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+</head>
+<body ng-app="MainApp">
+	<script src="Scripts/angular.min.js"></script>
+	<script src="build/main.js"></script>
+	<div ng-controller="TestController as vm">
+		{{vm.testMessage}}
+
+		<input type="button" value="Test" ng-click="vm.testBtnClick()" />
+
+	</div>
+</body>
+</html>
+
